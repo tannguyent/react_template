@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+// Font mixins
+
+@mixin light-condensed-italic{
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: 300;
+}
+
+@mixin light-condensed{
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}

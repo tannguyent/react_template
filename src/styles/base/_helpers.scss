@@ -1,0 +1,116 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+/** --------------
+	borders 
+------------------ */
+
+/** --------------
+	border right
+------------------ */
+
+/** --------------
+	border left
+------------------ */
+
+/** --------------
+	border top
+------------------ */
+
+/** --------------
+	border bottom
+------------------ */
+
+/** --------------
+	Paddings
+------------------ */
+
+/** --------------
+	Padding right
+------------------ */
+
+/** --------------
+	Padding left
+------------------ */
+
+/** --------------
+	Padding top
+------------------ */
+
+
+/** --------------
+	Padding bottom
+------------------ */
+
+
+/** --------------
+	Margins
+------------------ */
+
+/** --------------
+	Margin right
+------------------ */
+
+/** --------------
+	Margin left
+------------------ */
+
+/** --------------
+	Margin top
+------------------ */
+
+/** --------------
+	Margin bottom
+------------------ */
+
+/** round image */
+img.img-round {
+	border-radius: 100%;
+}
+
+/** list css */
+ul.list-unstyled {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+ul.linear-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+
+ul.linear-list li {
+	display: inline-block;
+}
+
+/** Centered elements */
+.center {
+	margin: 0 auto;
+	float: none;
+}
+
+/** Text style */
+.text-center {
+	text-align: center !important;
+}
+
+/** Text align **/
+.text-right {
+	text-align: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-light {
+	font-weight: light;
+}
+
+.text-bold {
+	font-weight: bold;
+}

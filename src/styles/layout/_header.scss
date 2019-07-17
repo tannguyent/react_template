@@ -1,0 +1,34 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.875rem;
+    z-index: 1000;
+    .logo {
+    }
+
+    .user-form{
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            li {
+              list-style: none;
+              color: #2c3e50;
+              padding: 0px 25px;
+              text-transform: uppercase;
+              transition: .3s;
+              font-weight: 400;
+              &.active {
+                color: #ecf0f1;
+                //background: #2c3e50;
+                //border-radius: 5px;
+              }
+            }
+          }
+    }
+}

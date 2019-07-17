@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the boxshaow component.
+// -----------------------------------------------------------------------------
+// https://codepen.io/kingRayhan/pen/gWrKyz
+.box1 {
+    @include mboxshadow(1); // depth level 1
+}
+
+.box2 {
+    @include mboxshadow(2); // depth level 2
+}
+
+.box3 {
+    @include mboxshadow(3); // depth level 3
+}
+
+.box4 {
+    @include mboxshadow(4); // depth level 4
+}
+
+.box5 {
+    @include mboxshadow(5); // depth level 5
+}
+
+.box-6 {
+    @include mboxshadow(1);
+
+    &:hover {
+        @include mboxshadow(2);
+    }
+}
+
+.box-7 {
+    @include mboxshadow(5);
+
+    &:hover {
+        @include mboxshadow(3);
+    }
+}
