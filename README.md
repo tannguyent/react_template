@@ -83,3 +83,6 @@ https://www.learnhowtoprogram.com/lessons/building-an-environment-automatic-lint
 - add .prettierrc
 - add .eslintrc.js
 - add .eslintignore
+8. support docuker file 
+https://www.peterbe.com/plog/how-to-create-react-app-with-docker
+
