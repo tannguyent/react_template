@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "immer": "^3.1.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
@@ -16,7 +18,8 @@
     "build": "webpack --mode production --config build/webpack.prod.config.js --env.NODE_ENV=production --progress",
     "lint": "npm run lint:eslint",
     "lint:eslint": "eslint src/**/*.js ",
-    "lint:eslint:fix": "eslint src/**/*.js   --fix"
+    "lint:eslint:fix": "eslint src/**/*.js --fix",
+    "prettify": "prettier --write"
   },
   "browserslist": {
     "production": [

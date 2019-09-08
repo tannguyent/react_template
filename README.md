@@ -85,4 +85,21 @@ https://www.learnhowtoprogram.com/lessons/building-an-environment-automatic-lint
 - add .eslintignore
 8. support docuker file 
 https://www.peterbe.com/plog/how-to-create-react-app-with-docker
+9. support redux
+- "react-redux"
+- "react-router-dom"
+- "redux"
+- "redux-saga"
+- "reselect"
+should create some files as below for one redux module
+- constants.js => define some constants
+- reducer.js   => define state
+- selectors.js => define getter 
+- actions.js   => define action
 
+10. support react route  
+- "react-redux"
+- "react-router-dom"
+- "redux": "^4.0.4"
+- "redux-saga": "^1.0.5"
+- "reselect"
